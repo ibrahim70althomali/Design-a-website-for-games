@@ -1,0 +1,30 @@
+a {
+   
+    font-size: 14px;
+    color: var(--color-light);
+    border-radius: 25px;
+    padding: 12px 30px;
+    letter-spacing: 0.5px;
+    transition: all 0.3s;
+
+}
+
+.pirmary-button a {
+  background-color: var( --color-primary);
+}
+.pirmary-button a:hover{
+background-color: var(--color-light);
+color: var(--color-primary);
+}
+
+
+
+.secodary-button a{
+    border: 1px solid var(--color-primary);
+    color: var(--color-primary);
+}
+
+.secodary-button a:hover{
+    border:1px solid var(--color-light);
+    color: var(--color-primary);
+}

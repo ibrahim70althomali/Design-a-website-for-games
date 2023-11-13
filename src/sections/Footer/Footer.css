@@ -1,0 +1,14 @@
+footer p {
+    text-align: center;
+    padding: 25px;
+    color:  #464747;
+    font-weight: 300;
+}
+footer p a{
+color: var(--color-dark);
+gap: 1;
+}
+
+footer p a:hover{
+    color: var(--color-primary);
+    }
